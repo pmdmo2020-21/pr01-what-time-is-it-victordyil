@@ -5,32 +5,32 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:padding="16dp">
+    android:padding="@dimen/padding_dim">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/lblDate"
         android:text="@string/lbl_date"
-        android:layout_marginBottom="8dp"/>
+        android:layout_marginBottom="@dimen/mb_dim"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/lblFecha"
         android:text="@string/lbl_date_Example"
-        android:layout_marginBottom="8dp"/>
+        android:layout_marginBottom="@dimen/mb_dim"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/lblTime"
         android:text="@string/lbl_Time"
-        android:layout_marginBottom="8dp"/>
+        android:layout_marginBottom="@dimen/mb_dim"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/lblTiempo"
         android:text="@string/lbl_Tiempo_Example"
-        android:layout_marginBottom="8dp"/>
+        android:layout_marginBottom="@dimen/mb_dim"/>
 
 
 
