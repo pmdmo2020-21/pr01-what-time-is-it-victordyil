@@ -1,6 +1,7 @@
 package com.victoryil.whattimeisit;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
 
 import android.os.Bundle;
 import android.widget.TextView;
@@ -27,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setupView() {
-        lblFecha = findViewById(R.id.lblFecha);
-        lblHora = findViewById(R.id.lblTiempo);
+        lblFecha = ActivityCompat.requireViewById(this,R.id.lblFecha);
+        lblHora =  ActivityCompat.requireViewById(this,R.id.lblTiempo);
         lblFecha.setText(dat);
         lblHora.setText(tim);
     }
