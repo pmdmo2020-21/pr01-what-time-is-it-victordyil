@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">What time is it</string>
+    <string name="lbl_date">Date</string>
+    <string name="lbl_date_Example">--/--/--</string>
+    <string name="lbl_Tiempo_Example">--:--</string>
+    <string name="lbl_Time">Time</string>
+</resources>
