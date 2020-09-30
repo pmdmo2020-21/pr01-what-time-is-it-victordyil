@@ -16,7 +16,6 @@ public class MainActivity extends AppCompatActivity {
     final SimpleDateFormat date = new SimpleDateFormat("dd/MM/yyyy", locale);
     final SimpleDateFormat time = new SimpleDateFormat("hh:mm",locale);
     final String dat = date.format(new Date());
-    final String tim = time.format(new Date());
     private TextView lblFecha, lblHora;
 
     @Override
@@ -31,6 +30,6 @@ public class MainActivity extends AppCompatActivity {
         lblFecha = ActivityCompat.requireViewById(this,R.id.lblFecha);
         lblHora =  ActivityCompat.requireViewById(this,R.id.lblTiempo);
         lblFecha.setText(dat);
-        lblHora.setText(tim);
+        lblHora.setText(dat);
     }
 }
